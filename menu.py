@@ -9,6 +9,12 @@ menuOption=int(raw_input())
 if(menuOption == 1):
 	autodetect()
 
-def autodetect():
 
+# Methods #
 def ucopiaOneClickButton():
+
+def isInternetAccessOK():
+	return False
+
+def autodetect():
+	ucopiaOneClickButton()
